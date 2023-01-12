@@ -1,0 +1,108 @@
+.title{
+    text-align: center;
+    color: darkslategray;
+    font-size: 35px;
+}
+#first-part{
+    background-color: rosybrown;
+    padding: 10px;
+    height: 100vh;
+}
+.form{
+    text-align: center;
+
+}
+.form  input{
+    font-size: 15px;
+    margin-bottom: 15px;
+    width: 370px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 4px rgba(128, 128, 128, 0.787);
+}
+.form input, #education-form select, input, #countryCode:focus{
+    outline: none;
+    box-shadow: 0px 0px 5px gray;
+}
+#countryCode {
+    width: 155px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 4px rgba(128, 128, 128, 0.787);
+}
+#phone{
+    width: 210px;
+}
+#nextButton, #nextButton2, #submitButton, #submitButton2{
+    background-color: darkslategray;
+    color: white;
+    font-size: 17px;
+    padding: 8px 35px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+/*page2*/
+#second-part, #third-part{
+    display: none;
+}
+.education-div{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    text-align: center;
+    border: 2px solid lightsalmon;
+    margin: 10px 400px;
+    padding: 15px;
+    background-color: bisque;
+    border-radius: 15px;
+
+}
+#education-form div{
+    margin-top: 15px;
+}
+#education-form select, input{
+    width: 140px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 4px rgba(128, 128, 128, 0.787);
+}
+
+#plusButton{
+    background-color: lightseagreen;
+    color: white;
+    padding: 2px 15px;
+    border: none;
+    border-radius: 5px;
+   font-size: 25px;
+    margin-top: 10px;
+}
+.button-div{
+ margin-top: 18px;
+    margin-bottom: 15px;
+}
+#previousButton, #previousButton2{
+    background-color: lightslategray;
+    color: white;
+    font-size: 17px;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+/*third page*/
+.summery-div{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 8px rgba(128, 128, 128, 0.787);
+    margin: 50px 400px;
+    padding: 15px;
+    background: lightpink;
+}
